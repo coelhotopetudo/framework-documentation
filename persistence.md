@@ -10,7 +10,7 @@ A maioria dos servidores JEE possuem implementações para a especificação JPA
 * persistence unit/context annotations
 * persistence unit/context references in the deployment descriptor
 
-Na utilização do Servidor Aplicação **JBoss Wildfly** a implementação padrão utilizada é o **Hibernate \(Versão 5\)**, sendo que durante a inicialização do servidor se for detectada a utilização do JPA por meio do arquivo _persistence.xml_ ou anotações _@PersistenceContext/Unit_ por exemplo, o Wildfly injeta as dependencias do Hibernate na instalação da aplicação, isso facilita o processo de instalaçõa de aplicação que utilizam JPA.
+Na utilização do Servidor Aplicação **JBoss Wildfly** a implementação padrão utilizada é o **Hibernate \(Versão 5\)**, sendo que durante a inicialização do servidor se for detectada a utilização do JPA por meio do arquivo _persistence.xml_ ou anotações _@PersistenceContext/Unit_ por exemplo, o Wildfly injeta as dependencias do Hibernate na instalação da aplicação, isso facilita o processo de instalação de aplicação que utilizam JPA.
 
 > Fontes:
 >
